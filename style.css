@@ -181,6 +181,23 @@ nav ul li a:hover {
     cursor: default;
 }
 
+#play-icon {
+    margin-top: 2.6rem;
+    text-align: center;
+}
+
+.fa-solid.fa-play {
+    color: white;
+    font-size: 3rem;
+}
+
+.fa-solid.fa-play:hover {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
 /* About */
 #About {
     justify-content: center;
@@ -282,12 +299,13 @@ footer:hover {
     padding-top: 3rem;
 }
 
-.media a i{
+.media a i {
     color: white;
     font-size: 3.5rem;
     margin: 2rem;
     transition: transform .2s ease-in-out;
 }
+
 .media a i:hover {
     transform: translateY(-10px);
     cursor: pointer;
