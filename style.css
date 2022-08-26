@@ -337,16 +337,14 @@ footer:hover {
     padding-top: 3rem;
 }
 
-.media a {
-    padding-top: 3rem;
-    margin: 3rem;
-    font-size: 4rem;
+.media a i{
     color: white;
-}
-
-.media a i:hover {
-    transform: translateY(-15px);
+    font-size: 3.5rem;
+    margin: 2rem;
     transition: transform .2s ease-in-out;
+}
+.media a i:hover {
+    transform: translateY(-10px);
     cursor: pointer;
     color: cyan;
 }
