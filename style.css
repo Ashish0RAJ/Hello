@@ -198,6 +198,18 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.fa-solid.fa-pause {
+    color: white;
+    font-size: 3rem;
+}
+
+.fa-solid.fa-pause:hover {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
 /* About */
 #About {
     justify-content: center;
