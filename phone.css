@@ -12,9 +12,7 @@
         left: -100%;
         justify-content: center;
         text-align: center;
-        width: 100%;
         transition: left .4s ease-in-out;
-        z-index: 9;
         background-image: url('./menu_bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -35,35 +33,11 @@
     }
 
     #click:checked~ul {
-        left: 0;
+        left: 0%;
     }
 
     #click:checked~.menu-btn i::before {
         content: '\f00d';
         font-size: 1.8rem;
-    }
-
-   
-
-    #content-text {
-        text-align: center;
-        font-size: 3rem;
-        font-weight: 800;
-        color: white;
-        letter-spacing: 1px;
-    }
-    #About {
-        position: static;
-        justify-content: center;
-        text-align: center;
-    }
-    #click:checked~#About{
-        display: none;
-    }
-    footer {
-        position: static;
-    }
-    #click:checked~footer{
-        display: none;
     }
 }

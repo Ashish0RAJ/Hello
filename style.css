@@ -6,7 +6,62 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+}
 
+/* particle section  */
+
+canvas {
+    display: block;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /* background-color: #232741; */
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 50% 50%;
+    display: block;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    display: none;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
 }
 
 /* scroll section  */
@@ -106,6 +161,7 @@ nav {
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.104);
     transition: background-color 3s ease-out;
+    z-index: 5;
 }
 
 nav ul {
@@ -163,6 +219,7 @@ nav ul li a:hover {
     color: transparent;
     cursor: pointer;
 }
+
 /* Home */
 #content-text {
     text-align: center;
@@ -224,7 +281,7 @@ nav ul li a:hover {
 }
 
 .About-image i:hover {
-    transition: .3s;
+    transition: color 1s ease;
     color: cyan;
 }
 
@@ -237,6 +294,7 @@ nav ul li a:hover {
 }
 
 #cpp:hover {
+    transition: color 1s ease;
     color: cyan;
 }
 
@@ -276,21 +334,23 @@ footer:hover {
 
 .media {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .media a {
-    margin: 2rem;
+    padding-top: 3rem;
+    margin: 3rem;
     font-size: 4rem;
     color: white;
 }
 
 .media a i:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
     transition: transform .2s ease-in-out;
     cursor: pointer;
     color: cyan;
 }
-#footer-text{
+
+#footer-text {
     color: white;
 }

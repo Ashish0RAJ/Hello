@@ -14,7 +14,7 @@
     <!-- external file  -->
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./phone.css">
-    <link rel="stylesheet" href="./particle.css">
+
     <script src="./script.js"></script>
     <!-- icon link  -->
     <script src="https://kit.fontawesome.com/4c1f4b9263.js" crossorigin="anonymous"></script>
@@ -33,80 +33,83 @@
 </head>
 
 <body>
-    <div id="particles-js"></div>
-    <!-- stats - count particles -->
-    <div class="count-particles"> <span class="js-count-particles">--</span> particles </div>
-    <div class="header">
-        <!-- background-video  -->
-        <video autoplay muted loop poster="./background-poster.png" class="background-video">
-            <source src="./background-video.mp4" type="video/mp4">
-        </video>
-        <!-- navigation section  -->
-        <nav>
-            <div class="logo">
-                <img src="./logo.jpg" alt="">
-                <span id="logo-text" class="animate__animated ">Ashish</span>
+    <section class="scroll">
+
+        <div id="particles-js"></div>
+        <!-- stats - count particles -->
+        <div class="count-particles"> <span class="js-count-particles"></span></div>
+        <section class="header">
+            <!-- background-video  -->
+            <video autoplay muted loop poster="./background-poster.png" class="background-video">
+                <source src="./background-video.mp4" type="video/mp4">
+            </video>
+            <!-- navigation section  -->
+            <nav>
+                <div class="logo">
+                    <img src="./logo.jpg" alt="">
+                    <span id="logo-text" class="animate__animated ">Ashish</span>
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn"><i class="fas fa-bars"></i></label>
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Social">Social</a></li>
+                    <li><a href="#">Test</a></li>
+                </ul>
+            </nav>
+            <!-- Home section  -->
+            <div class="content">
+                <p id="content-text">
+                    Welcome to my<br>portfolio website
+                </p>
             </div>
-            <input type="checkbox" id="click">
-            <label for="click" class="menu-btn"><i class="fas fa-bars"></i></label>
-            <ul>
-                <li><a href="./">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Social">Social</a></li>
-                <li><a href="#">Test</a></li>
-            </ul>
-        </nav>
-        <!-- Home section  -->
-        <div class="content">
-            <p id="content-text">
-                Welcome to my<br>portfolio website
-            </p>
+        </section>
+
+        <!-- About section  -->
+        <div id="About">
+            <p id="About-text">More about me</p>
+            <div class="About-content">
+                <div>Hi &#128075; there my name is "Ashish Raj"</div>
+                <div>I'm self taught programmer</div>
+                <div>I'm from India</div>
+                <br>
+                <div>I know how to code in</div>
+                <div class="About-image">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-solid fa-c"></i>
+                </div>
+                <div id="cpp">
+                    <i class="fa-solid fa-c"></i>
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <footer id="Social">
+                <p id="Social-text">Contact and Social Media</p>
+                <div class="media">
+                    <a href="https://www.instagram.com/ashish_nub/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+
+                    <a href="https://www.linkedin.com/in/ashish-raaz-823459242/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+
+                    <a href="https://discord.gg/KFuXMVAn" target="_blank"><i class="fa-brands fa-discord"></i></a>
+
+
+                    <a href="https://leetcode.com/NoThisIsAshish/" target="_blank"><i class="fa-solid fa-code"></i></a>
+
+                    <a href="https://www.youtube.com/channel/UC4-p7XDVsYAI6JSfi1B-KzA" target="_blank"><i
+                            class="fa-brands fa-youtube"></i></a>
+
+                    <a href="https://github.com/Ashish0RAJ" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+            </footer>
         </div>
-    </div>
-
-    <!-- About section  -->
-    <div id="About">
-        <p id="About-text">More about me</p>
-        <div class="About-content">
-            <div>Hi &#128075; there my name is "Ashish Raj"</div>
-            <div>I'm self taught programmer</div>
-            <div>I'm from India</div>
-            <br>
-            <div>I know how to code in</div>
-            <div class="About-image">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="fa-solid fa-c"></i>
-            </div>
-            <div id="cpp">
-                <i class="fa-solid fa-c"></i>
-                <i class="fa-solid fa-plus"></i>
-                <i class="fa-solid fa-plus"></i>
-            </div>
-        </div>
-        <footer id="Social">
-            <p id="Social-text">Contact and Social Media</p>
-            <div class="media">
-                <a href="https://www.instagram.com/ashish_nub/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-
-                <a href="https://www.linkedin.com/in/ashish-raaz-823459242/" target="_blank"><i
-                        class="fa-brands fa-linkedin-in"></i></a>
-
-                <a href="https://discord.gg/KFuXMVAn" target="_blank"><i class="fa-brands fa-discord"></i></a>
-
-
-                <a href="https://leetcode.com/NoThisIsAshish/" target="_blank"><i class="fa-solid fa-code"></i></a>
-
-                <a href="https://www.youtube.com/channel/UC4-p7XDVsYAI6JSfi1B-KzA" target="_blank"><i
-                        class="fa-brands fa-youtube"></i></a>
-
-                <a href="https://github.com/Ashish0RAJ" target="_blank"><i class="fa-brands fa-github"></i></a>
-
-            </div>
-        </footer>
-    </div>
+    </section>
 </body>
 <script>
     particlesJS("particles-js", { "particles": { "number": { "value": 200, "density": { "enable": true, "value_area": 1000 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 1, "random": true, "anim": { "enable": true, "speed": 1, "opacity_min": 0, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 4, "size_min": 0.3, "sync": false } }, "line_linked": { "enable": false, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 2, "direction": "none", "random": true, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 600 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": false, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 250, "size": 0, "duration": 2, "opacity": 0, "speed": 3 }, "repulse": { "distance": 400, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": false }); var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '-100px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function () { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
